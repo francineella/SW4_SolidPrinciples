@@ -1,4 +1,4 @@
-package SIP;
+package SRP;
 
 public class Owner {
     private String ownerName;

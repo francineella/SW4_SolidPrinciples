@@ -1,22 +1,21 @@
-package SIP;
+package SRP;
 
-public class Cat implements Pet {
+public class Dog implements Pet {
     private String petName;
 
-    public Cat(String petName){
+    public Dog(String petName) {
         this.petName = petName;
     }
     @Override
     public String getPetName() {
         return petName;
     }
-
     @Override
     public String makeSound() {
-        return petName + " said meow.";
+        return petName + " barked. Arf arf!";
     }
     @Override
     public String eat() {
-        return petName + " ate catfood.";
+        return petName + " ate dogfood.";
     }
 }

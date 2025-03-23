@@ -1,4 +1,4 @@
-package SIP;
+package SRP;
 
 public interface Pet {
     String getPetName();
